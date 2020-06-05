@@ -1,0 +1,21 @@
+# TicketSystem Configuration File
+# Any questions? Need help? No problem! Contact ItsRy_#6054 on Discord!
+
+# Specify the bot's token here.
+botToken: "NzA4ODU5MjgyMTUzNTM3NTc2.Xrdetg.GnXcph-MLKpxtxDAmkePnfHFEZ4"
+# Specify what you want the bot's status to be.
+botStatus: "Video Games"
+# Specify what you want the bot's status type to be. The four acceptable entries here are "PLAYING", "WATCHING", "LISTENING", and "STREAMING".
+botStatusType: "PLAYING"
+# Specify your desired prefix for the bot here.
+botPrefix: "-"
+
+embeds: # Configurations referencing color may either be a valid hex code or Discord API color.
+  embedsFooter: "TicketSystem | Made by ItsRy_#6054"
+  embedsErrorColor: "#FF0000"
+  embedsSuccessColor: "#32D95E"
+  # The only variables that can be used in a message config are the ones included in the default message.
+  embedTextUserAdded: "MafiaMC >> :white_check_mark: Successfully added user {user} to ticket {channel}!"
+  embedTextUserRemoved: "MafiaMC >> :white_check_mark: Successfully removed user {user} from ticket {channel}!"
+  embedTextTicketClosing: "MafiaMC >> :timer: This ticket will be closing in 5 seconds..."
+  embedTextTicketCreated: " MafiaMC >> Hey {user}! Thanks for opening a ticket! An administrator will be with you shortly! In the meantime, please explain your reasoning for opening a ticket!"
